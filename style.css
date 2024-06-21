@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+.card-custom-parent {
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card-custom {
+  background-color: #141313;
+  border-radius: 10px;
+  padding: 10px 20px;
+  /* height: 132px; */
+  margin-bottom: 20px;
+}
+.rounded-circle {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.btn-custom {
+  background-color: #00e0d3;
+  color: #000;
+}
+.btn-custom:hover {
+  background-color: #00c3b3;
+}
+.attendance-status {
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.on-time {
+  background-color: #00e0d3;
+  color: #000;
+}
+.late {
+  background-color: #f5a623;
+  color: #000;
+}
+.absent {
+  background-color: #f5222d;
+  color: #000;
+}
+.icons {
+  font-size: 30px;
+  padding-top: 10px;
+}
+.vertical {
+  height: 25px;
+  width: 5px;
+  background-color: #00e0d3;
+  border-radius: 10px;
+}
